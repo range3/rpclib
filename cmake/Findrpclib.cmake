@@ -78,7 +78,7 @@ set(RPCLIB_COMPILE_DEFINITIONS
     "ASIO_STANDALONE"
     "RPCLIB_ASIO=clmdep_asio"
     "RPCLIB_FMT=clmdep_fmt"
-    "RPCLIB_MSGPACK=clmdep_msgpack"
+    "RPCLIB_MSGPACK=msgpack"
 )
 
 include(FindPackageHandleStandardArgs)
